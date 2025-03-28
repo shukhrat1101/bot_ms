@@ -25,7 +25,7 @@ def start(update: Update, context):
     markup = ReplyKeyboardMarkup(buttons, resize_keyboard=True)
 
     update.message.reply_text(
-        "Xizmat sifatini yaxshilash maqsadida, Iltimos, telefon raqamingizni yuboring:",
+        "Xizmat sifatini yaxshilash maqsadida telefon raqamingizni yuboring:",
         reply_markup=markup
     )
 
@@ -35,8 +35,8 @@ def about_us(update: Update, context):
 
     update.message.reply_text(
         "📢 *Biz haqimizda*\n\n"
-        "Assalomu aleykum. Siz Mudofaa sanoati agentligining murojaat botiga tashrif buyurdingiz.\n\n"
-        "Ushbu bot orqali Agentlik rahbariyatiga oʻz murojaatingizni yuborishingiz mumkin.\n"
+        "Assalomu alaykum! Siz Mudofaa sanoati agentligining murojaat botiga tashrif buyurdingiz.\n"
+        "Ushbu bot orqali agentlik rahbariyatiga oʻz murojaatingizni yuborishingiz mumkin.\n"
         "Murojaatchi toʻgʻrisidagi maʼlumotlar toʻliq sir saqlanadi.",
         parse_mode="Markdown"
     )
